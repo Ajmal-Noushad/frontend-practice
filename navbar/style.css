@@ -1,3 +1,22 @@
-body {
-    background-color: white;
+body{
+    min-height: 800px;
+    border: 8px solid black;
+    display: flex;
+    gap: 10px;
+}
+.box{
+    flex-shrink: 1;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(250, 197, 99);
+    font-size: 40pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 575px){
+    body{
+        flex-wrap: wrap;
+    }
 }
