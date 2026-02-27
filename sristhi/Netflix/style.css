@@ -1,0 +1,67 @@
+body{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: 2560px 1440px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.logo{
+    max-width: 140px;
+}
+
+button{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.language select{
+    background-color: black
+}
+
+h1, p, span{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 45px;
+}
+
+.main{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.email{
+    padding: 8px;
+    width: 240px;
+}
+
+.start{
+    padding: 8px;
+}
+
+select{
+    height: 40px;
+    width: 125px;
+    padding: 8px;
+}
+
+.sign{
+    padding: 8px;
+    height: 40px;
+    width: 75px;
+}

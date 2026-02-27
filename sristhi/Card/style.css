@@ -1,0 +1,35 @@
+.flex-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap: 1em;
+    justify-content: center;
+    grid-template-areas:
+        'first-car first-car second'
+        'kk ford ford'
+        'new viper viper';
+}
+
+.flex-container div{
+    padding: 1em;
+    text-align: center;
+    background-color: rgb(206, 206, 206);
+    border-radius: 15px;
+    padding: 2em;
+}
+
+.flex-container div:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+.flex-container div p{
+    font-weight: 600;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+

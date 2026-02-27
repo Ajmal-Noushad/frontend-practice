@@ -24,7 +24,7 @@
 
 .product-list {
     display: grid;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-content: center;
     gap: 1em;
     padding: 1em;
