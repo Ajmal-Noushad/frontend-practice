@@ -1,1 +1,1 @@
-![Homepage Screenshot](Kaira/screenshot/Kaira_screenshot.png)
+![Homepage Screenshot](screenshot/Kaira_screenshot.png)
